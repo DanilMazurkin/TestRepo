@@ -2,7 +2,7 @@ from good_list import GoodList
 
 
 def run_program():
-    """Здесь будет содержаться вся логика работы программы."""
+    """Здесь будет содержаться вся логика работы программы"""
     good_list = GoodList()
     good_list.load_goods_from_file('./list_goods.txt')
     good_list_from_file = good_list.get_good_list()
